@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>College Fest</title>
+		<link rel="stylesheet" type="text/css" href="index.css"></link>
+	</head>
+	<body>
+	<script src="index.js"></script>
+		<img src="C:/Users/PAT/Documents/GitHub/DISQHackathon/image.jpg" width="100%" height="640px" alt="back" name="back" id="im1"></img>
+		<header>
+			<h1>COLLEGE FEST 2016 - 2017</h1>
+			<span id="date"></span>
+			<script>
+				var d = new Date();
+				document.getElementById('date').innerHTML=d.toUTCString();
+			</script>
+			<a id="home" href="index.html">HOME</a>
+		</header>
+		<section id="log">
+		</section>
+		<div class="card1">
+			<img src="C:/Users/PAT/Documents/GitHub/DISQHackathon/log.png" alt="duet" style="width:100%" id="dance">
+			<div class="container">
+				<input type="text" id="uname" placeholder="Username"></input>
+				<input type="password" id="password" placeholder="Password"></input>
+				<a id="logg" value="Login" href="index.html" onclick="login()">LOGIN</a>
+			</div>
+		</div>
+		<footer>
+			<img src="C:/Users/PAT/Documents/GitHub/DISQHackathon/fb.png" width="50px" height="50px" alt="facebook" name="facebook" id="fb"></img>
+			<img src="C:/Users/PAT/Documents/GitHub/DISQHackathon/tw.png" width="35px" height="35px" alt="twitter" name="twitter" id="tw"></img>
+			<img src="C:/Users/PAT/Documents/GitHub/DISQHackathon/cpy.png" width="35px" height="35px" alt="copy" name="copy" id="cp"></img>
+			<span id="sp1">All CopyRights Reserved</span>
+		</footer>
+	</body>
+</html>

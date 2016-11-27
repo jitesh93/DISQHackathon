@@ -1,1 +1,6 @@
-document.getElementById('date').innerHTML=Date();
+function subscribe() {
+	alert('subscribed');
+}
+function login() {
+	alert('Logged In');
+}
